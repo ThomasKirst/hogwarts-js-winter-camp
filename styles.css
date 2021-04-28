@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  gap: 3rem;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  justify-items: center;
+}
+
+h1 {
+  background: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  color: #000;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border: none;
+}
+
+.weasleyBox {
+  background-image: linear-gradient(-112deg, #ec77ab 0%, #7873f5 100%);
+  color: white;
+  font-weight: 700;
+  width: 10rem;
+  height: 10rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.rounded {
+  border-radius: 0.8rem;
+}
+
+.shadow {
+  box-shadow: 0 10px 15px #ccc;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 2s;
+}
