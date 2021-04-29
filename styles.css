@@ -19,6 +19,7 @@ h1 {
     #b49fda 79%,
     #7ac5d8 100%
   );
+  font-size: 3rem;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
