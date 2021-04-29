@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.button {
+  padding: 0.3rem 2rem;
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  border: none;
+  font-size: 1.2rem;
+}
+
+.weasleys-house {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.weasley-box {
+  align-items: center;
+  background-image: linear-gradient(-112deg, #ec77ab 0%, #7873f5 100%);
+  color: white;
+  display: flex;
+  font-size: 1.2rem;
+  height: 10rem;
+  justify-content: center;
+  width: 10rem;
+}
+
+.rounded {
+  border-radius: 0.8rem;
+}
+
+.shadow {
+  box-shadow: 0 10px 15px #ccc;
+}
